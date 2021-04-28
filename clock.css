@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock{
+    background-color: white;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    border: 10px solid;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.digit{
+    position: absolute;
+color: tomato;
+}
+
+#digit_1{
+    right: 160px;
+    top: 60px;
+}
+
+#digit_2{
+    right: 75px;
+    top: 155px;
+}
+
+#digit_3{
+    right: 40px;
+    top: 280px;
+}
+
+#digit_4{
+    right: 75px;
+    bottom: 155px;
+}
+
+
+#digit_5{
+    right: 160px;
+    bottom: 60px;
+}
+
+
+#digit_6{
+    right: 290px;
+    bottom: 25px;
+}
+
+
+#digit_7{
+    left:  160px;
+    bottom: 60px;
+}
+
+#digit_8{
+    left:  75px;
+    bottom: 155px;
+}
+
+
+#digit_9{
+    left: 40px;
+    top: 280px;
+}
+
+#digit_10{
+    left: 70px;
+    top: 155px;
+}
+
+#digit_11{
+    left: 155px;
+    top: 60px;
+}
+
+#digit_12{
+    right: 280px;
+    top: 25px;
+}
+
+#center {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: tomato;
+z-index: 2;
+position: absolute;
+}
+
+#big_arrow{
+
+    width: 18px;
+    height: 230px;
+    background-color: turquoise;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 300px;
+    transform-origin: bottom;
+
+    
+}
+
+#little_arrow{
+
+    width: 18px;
+    height: 140px;
+    background-color: rgb(192, 64, 224);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 300px;
+    transform-origin: bottom;
+
+
+}
+
+#slim_arrow {
+    width: 5px;
+    height: 230px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 300px;
+    transform-origin: bottom;
+
+}
